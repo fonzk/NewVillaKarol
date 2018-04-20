@@ -24,3 +24,6 @@
     background-size:100vw;
     border: 2px solid black;
 }
+footer {
+    height: 100vh; 
+}
