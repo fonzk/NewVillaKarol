@@ -7,7 +7,6 @@ body {
   text-align: center;
   color: #f5f5f5;
 }
-
 .hero {
   background: url(../images/prueba.jpg) no-repeat center;
   background-size: cover;
@@ -16,7 +15,6 @@ body {
   height: 100%;
   width: 100%;
 }
-
 .inner-text {
   position: relative;
   top: 50%;
@@ -44,16 +42,16 @@ body {
 @media only screen and (min-width: 950px) {
   .inner-text {
     font-size: 100px;
-  }
-}
 
+  }
+ 
+}
 .p1 {
   display: block;
   font-size: 1em;
   font-weight: 900;
   marGIN: 0;
   line-height: 1;
-  
 }
 @media only screen and (max-width: 465px) {
   .p1 {
@@ -66,7 +64,6 @@ body {
             transform: translateX(-50%);
   }
 }
-
 .p2 {
   display: inline-block;
   font-size: 0.6em;
@@ -74,16 +71,14 @@ body {
   margin: 0;
   line-height: 1;
   color: #fee5c0;
-  
 }
 @media only screen and (max-width: 465px) {
   .p2 {
-
     position: relative;
     top: 0.6em;
   }
-}
 
+}
 .hero-down {
   position: absolute;
   bottom: 0;
@@ -112,50 +107,62 @@ body {
   position: relative;
   top: 0.1em;
 }
-
 .footer {
-
-   line-height: 40px;
- height: 310px;
- width: 100%;
- background: #043d5b;
- color: white;
+ line-height: 40px;
+ /* height: 310px; */
+ /* width: 100%; */
+ /* background: #043d5b; */
+ /* color: white; */
  padding: 5px 5% 5px 5%;
  border-top: 1px solid #a29061;
-
 }
 .footer a{
-
   text-decoration: none;
-  color: #ccc;
+ color: black;
 }
 #subfooter{
-  border-top: 1px solid #a29061;
+  
   width: 100%;
-  background-color: #222;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 30px 40px;
-  color: #75818a;
- 
-}
-.mapa {float: right;
 
+  font-size: 16px;
+
+
+  
+
+  /* padding: 30px 40px; */
+  color: #75818a;
+  
+}
+#subfooter div{
+width: 100%;
+  display: flex;
+  justify-content: center;
+align-content: center;
+background-color: #222;
+line-height: 20px;
+border-top: 1px solid #a29061;
+}
+
+.mapa {float: right;
+  height: 100%;
 }
 footer i{
   padding: 10px;
 }
+.foot1{
+  color: black;
 
-
+}
+#derecha{
+float: left;
+}
 /* social */
-
 .social {
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 	left: 0; /* Establecemos la barra en la izquierda */
 	top: 265px; /* Bajamos la barra 200px de arriba a abajo */
 	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }
-
 	.social ul {
     list-style: none;
     padding: 0;
@@ -165,7 +172,6 @@ footer i{
     padding: 0;
     width: 10px;
   }
-
 	.social ul li a {
 		display: inline-block;
 		color:#fff;
@@ -177,7 +183,6 @@ footer i{
     transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
     width: 30px;
 	}
-
 	.social ul li .fa-facebook-f {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
 	.social ul li .fa-twitter {background: #00abf0;}
 	.social ul li .fa-google-plus-g {background: #d95232;}
@@ -185,9 +190,9 @@ footer i{
 	.social ul li .fa-at {background: #666666;}
   .social ul li  .fa-whatsapp {background: #25d366;}
 	.social ul li a:hover {
-		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
-		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    background: #043d5b; /* Cambiamos el fondo cuando el usuario pase el mouse */
+    color: #fee5c0;
+		padding: 10px 10px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
   }
-  
-  /* fin social */
 
+  /* fin social */
