@@ -53,9 +53,11 @@ body {
   font-weight: 900;
   marGIN: 0;
   line-height: 1;
+  
 }
 @media only screen and (max-width: 465px) {
   .p1 {
+    font-size: 0.6em;
     display: block;
     position: absolute;
     top: -25%;
@@ -67,14 +69,16 @@ body {
 
 .p2 {
   display: inline-block;
-  font-size: 1em;
+  font-size: 0.6em;
   font-weight: 100;
   margin: 0;
   line-height: 1;
   color: #fee5c0;
+  
 }
 @media only screen and (max-width: 465px) {
   .p2 {
+
     position: relative;
     top: 0.6em;
   }
@@ -108,3 +112,82 @@ body {
   position: relative;
   top: 0.1em;
 }
+
+.footer {
+
+   line-height: 40px;
+ height: 310px;
+ width: 100%;
+ background: #043d5b;
+ color: white;
+ padding: 5px 5% 5px 5%;
+ border-top: 1px solid #a29061;
+
+}
+.footer a{
+
+  text-decoration: none;
+  color: #ccc;
+}
+#subfooter{
+  border-top: 1px solid #a29061;
+  width: 100%;
+  background-color: #222;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 30px 40px;
+  color: #75818a;
+ 
+}
+.mapa {float: right;
+
+}
+footer i{
+  padding: 10px;
+}
+
+
+/* social */
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 265px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+    list-style: none;
+    padding: 0;
+    width: 30px;
+  }
+  social ul li{
+    padding: 0;
+    width: 10px;
+  }
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 5px 5px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+    transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+    width: 30px;
+	}
+
+	.social ul li .fa-facebook-f {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .fa-twitter {background: #00abf0;}
+	.social ul li .fa-google-plus-g {background: #d95232;}
+	.social ul li .fa-instagram {background: #da32e5;}
+	.social ul li .fa-at {background: #666666;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  }
+  
+  /* fin social */
+
