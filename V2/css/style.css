@@ -183,7 +183,7 @@ footer i{
 	.social ul li .fa-google-plus-g {background: #d95232;}
 	.social ul li .fa-instagram {background: #da32e5;}
 	.social ul li .fa-at {background: #666666;}
-
+  .social ul li  .fa-whatsapp {background: #25d366;}
 	.social ul li a:hover {
 		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
