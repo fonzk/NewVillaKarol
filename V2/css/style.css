@@ -111,7 +111,7 @@ body {
  line-height: 40px;
  /* height: 310px; */
  /* width: 100%; */
- /* background: #043d5b; */
+
  /* color: white; */
  padding: 5px 5% 5px 5%;
  border-top: 1px solid #a29061;
@@ -121,7 +121,7 @@ body {
  color: black;
 }
 #subfooter{
-  
+ 
   width: 100%;
 
   font-size: 16px;
@@ -132,6 +132,9 @@ body {
   /* padding: 30px 40px; */
   color: #75818a;
   
+}
+footer{
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(0,67,213,1) 100%);
 }
 #subfooter div{
 width: 100%;
