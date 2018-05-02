@@ -156,6 +156,36 @@ footer i{
 #derecha{
 float: left;
 }
+
+  /*CSS DAVID*/
+  .page_inf{
+    color: black;
+    background: #F7F7F7;
+    padding: 5%;
+    height: 100%;
+    width: 100%;
+  }
+  .jstfy{
+    text-align: justify; /*Esto es un poco idiota By David*/
+  }
+  .imgx{
+   
+   width: 510px;
+   height: 510px;
+   border-radius: 50%;
+   border-color: #323643;
+   border-style: solid;
+   border-width: 10px;
+   transition: 0.5s;
+  }
+  .imgx:hover{
+    border-radius: 0%;
+    width: 520px;
+    height: 520px;
+   
+  }
+  /*FIN CSS DAVID*/
+
 /* social */
 .social {
 	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
